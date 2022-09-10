@@ -146,6 +146,7 @@ Passing By Pointer Vs Passing By Reference
 Passing by Pointer: Here, the memory location of the variables is passed to the parameters in the function, and then the operations are performed.
 
 .. code:: c++
+
    #include <iostream>
    using namespace std;
 
