@@ -201,6 +201,7 @@ Passing by Reference: It allows a function to modify a variable without having t
    
   
 Difference Between Reference Variable and Pointer Variable:    
+
 #. A pointer can be re-assigned while a reference cannot, and must be assigned at initialization only.
 #. Pointers can iterate over an array, we can use increment/decrement operators to go to the next/previous item that a pointer is pointing to.
 #. A pointer is a variable that holds a memory address. A reference has the same memory address as the item it references.
