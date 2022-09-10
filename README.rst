@@ -74,6 +74,7 @@ memory.
 The ``malloc()`` function in C++ allocates a block of uninitialized memory to a pointer. It is defined in the cstdlib header file.
 
 .. code:: c++
+
    #include <iostream>
    #include <cstdlib>
    using namespace std;
@@ -108,4 +109,4 @@ The ``malloc()`` function in C++ allocates a block of uninitialized memory to a 
 
      return 0;
    }
-   
+
