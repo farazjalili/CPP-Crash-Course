@@ -106,6 +106,13 @@ The ``malloc()`` function in C++ allocates a block of uninitialized memory to a 
 
      // deallocate memory
      free(ptr);
+     /* prints a garbage value after ptr is free */
+     cout << "Garbage Value" << endl;
+
+     for (int i=0; i<5; i++)
+     {
+        cout << *(ptr+i) << " ";
+     }
 
      return 0;
    }
