@@ -169,7 +169,8 @@ Passing by Pointer: Here, the memory location of the variables is passed to the 
        cout << "a = " << a << " b = " << b << "\n";
        return 0;
    }
-   
+
+
 Passing by Reference: It allows a function to modify a variable without having to create a copy of it. We have to declare reference variables. The memory location of the passed variable and parameter is the same and therefore, any change to the parameter reflects in the variable as well.
 
 .. code:: c++
