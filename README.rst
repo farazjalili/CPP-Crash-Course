@@ -32,6 +32,7 @@ section for explanation).
        cout << "The value you entered is " << i  << endl;
        return 0;
    }
+
    
    
 The C++ ``getline()`` is a standard library function that is used to read a string or a line from an input stream. It is a part of the ``<string>`` header. The ``getline()`` function extracts characters from the input stream and appends it to the string object until the delimiting character is encountered.
@@ -197,3 +198,12 @@ Passing by Reference: It allows a function to modify a variable without having t
        cout << "a = " << a << " b = " << b << "\n";
        return 0;
    }
+   
+ Difference Between Reference Variable and Pointer Variable:
+
+    
+#. A pointer can be re-assigned while a reference cannot, and must be assigned at initialization only.
+#. Pointers can iterate over an array, we can use increment/decrement operators to go to the next/previous item that a pointer is pointing to.
+#. A pointer is a variable that holds a memory address. A reference has the same memory address as the item it references.
+#. A pointer to a class/struct uses ‘->’ (arrow operator) to access its members whereas a reference uses a ‘.’ (dot operator)
+#. A pointer needs to be dereferenced with * to access the memory location it points to, whereas a reference can be used directly.
