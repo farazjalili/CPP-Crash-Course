@@ -138,9 +138,51 @@ saves the cost of copying parameters into the stack when calling the function.
 Standard Template Library
 ===============================================================================
 
-Containers
-----------
-STL containers are template classes that implement various ways of storing elements and accessing them.
+STL containers are template classes that implement various ways of storing
+elements and accessing them.
+
+**Sequence containers**:
+
+* vector
+* deque
+* list
+
+**Container adaptors**:
+
+* stack
+* queue
+* priority_queue
+
+**Associative containers**:
+
+* set
+* multiset
+* map
+* multimap
+* bitset
+
+
+
+.. code:: c++
+
+   #include <vector>
+   #include <map>
+   #include <string>
+
+   int main( int argc, char **argv )
+   {
+       std::vector<int> v;
+       v.push_back(1);
+       v.push_back(2);
+       v.push_back(3);
+
+       std::map<std::string,int> m;
+       m["one"] = 1;
+       m["two"] = 2;
+       m["three"] = 3;
+
+       return 0;
+   }
 
 
 
