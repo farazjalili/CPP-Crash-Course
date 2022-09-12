@@ -138,22 +138,31 @@ saves the cost of copying parameters into the stack when calling the function.
 Standard Template Library
 ===============================================================================
 
+Containers
+----------
 STL containers are template classes that implement various ways of storing
 elements and accessing them.
 
 **Sequence containers**:
 
+Sequence containers implement data structures that can be accessed sequentially. 
+
+* array
 * vector
 * deque
 * list
 
 **Container adaptors**:
 
+Container adaptors provide a different interface for sequential containers. 
+
 * stack
 * queue
 * priority_queue
 
 **Associative containers**:
+
+Associative containers implement sorted data structures that can be quickly searched (O(log n) complexity). 
 
 * set
 * multiset
