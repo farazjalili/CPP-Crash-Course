@@ -135,6 +135,15 @@ aliased variable lives, you can use indifferently the variable or the alias.
 References are extremely useful when used with function arguments since it
 saves the cost of copying parameters into the stack when calling the function.
 
+Standard Template Library
+===============================================================================
+
+Containers
+----------
+STL containers are template classes that implement various ways of storing elements and accessing them.
+
+
+
 
 
 TIPS
